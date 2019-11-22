@@ -1,0 +1,21 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "shopping list built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": " node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "David De Castro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
